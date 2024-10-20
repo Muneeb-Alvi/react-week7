@@ -1,6 +1,3 @@
-Sure! Below is a well-documented `README.md` file for your project, including clear setup instructions, project description, and an "AI Contributions" section.
-
-````markdown
 # Sports Results React App
 
 A simple sports results web application built with React, showcasing football and basketball fixtures using third-party APIs. The app fetches and displays football and basketball match results dynamically, with clean UI design enhanced using custom CSS and Bootstrap for styling.
@@ -51,6 +48,7 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/your-username/react-week7.git
    cd react-week7
    ```
+
 ````
 
 2. **Install dependencies:**
@@ -108,3 +106,4 @@ AI was used to assist in the following areas of the project:
 
 - **CSS Styling**: Custom styles for the app were generated and refined with the help of AI to ensure a modern, responsive, and user-friendly design.
 - **Bootstrap Integration**: AI was also involved in selecting and applying Bootstrap classes to make the app visually appealing and responsive across devices.
+````
