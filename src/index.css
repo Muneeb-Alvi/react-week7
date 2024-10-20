@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f4f7; /* Light gray-blue background */
+  font-family: "Arial", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Heading style */
+h2 {
+  font-size: 2rem;
+  color: #343a40; /* Darker color for contrast */
+  background-color: #007bff; /* Bootstrap primary blue for the heading background */
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d; /* Bootstrap muted text color */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Spacing between rows */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Make the page look more vibrant */
+.container {
+  padding-bottom: 50px;
+}
+
+/* Footer style */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40; /* Darker footer */
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
